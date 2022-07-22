@@ -1,16 +1,15 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (6.0.0)
+    activesupport (7.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
-      zeitwerk (~> 2.1, >= 2.1.8)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     backports (3.15.0)
     builder (3.2.3)
     coderay (1.1.2)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.10)
     cucumber (3.1.2)
       builder (>= 2.1.2)
       cucumber-core (~> 3.2.0)
@@ -42,7 +41,7 @@ GEM
     mime-types (3.3)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0904)
-    minitest (5.11.3)
+    minitest (5.16.2)
     multi_json (1.13.1)
     multi_test (0.1.2)
     multi_xml (0.6.0)
@@ -62,13 +61,12 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
-    thread_safe (0.3.6)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
-    zeitwerk (2.1.10)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   cucumber
